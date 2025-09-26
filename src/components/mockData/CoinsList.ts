@@ -3,7 +3,7 @@ export const cryptoCoins = [
     id: 1,
     name: 'Bitcoin',
     symbol: 'BTC',
-    iconUrl: 'https://i.imgur.com/JJSZcLV.png'
+    iconUrl: 'https://i.imgur.com/JwCzll9.png'
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const cryptoCoins = [
     id: 5,
     name: 'XRP',
     symbol: 'XRP',
-    iconUrl: 'https://cryptologos.cc/logos/xrp-xrp-logo.png'
+    iconUrl: 'https://i.imgur.com/a58ufpR.png'
   },
   {
     id: 6,
@@ -39,13 +39,7 @@ export const cryptoCoins = [
     id: 7,
     name: 'Solana',
     symbol: 'SOL',
-    iconUrl: 'https://cryptologos.cc/logos/solana-sol-logo.png'
-  },
-  {
-    id: 8,
-    name: 'Cardano',
-    symbol: 'ADA',
-    iconUrl: 'https://cryptologos.cc/logos/cardano-ada-logo.png'
+    iconUrl: 'https://i.imgur.com/QZpUSUf.png'
   },
   {
     id: 9,
