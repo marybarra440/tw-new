@@ -2123,5 +2123,104 @@ export const mockAccounts: Account[] = [
         quantity: 0
       }
     ]
+  },
+  {
+    account_id: 'ACC010',
+    holder: {
+      full_name: 'Tonya Wilson',
+      dateCreated: '9/27/2025', // m/d/y
+      jointAccount: false,
+      email: 't*@gmail.com',
+      username: 'TonyaWilson002',
+      password: 'Tonyalovesfusinski'
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
+      transaction_return_msg: "Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.",
+      transaction_code: '',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        date: 'March 22, 2025',
+        description: 'Transfer BTC',
+        walletAddress: '1bDA5...197E',
+        status: 'Success',
+        quantity: -0.23,
+        amount_in_usd: -25000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'September 18, 2024',
+        description: 'Transfer BTC',
+        walletAddress: 'bc1q7d...AFB7',
+        status: 'Success',
+        quantity: -0.23,
+        amount_in_usd: -25000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'June 14, 2023',
+        description: 'Transfer BTC',
+        walletAddress: '3FABB...694a',
+        status: 'Success',
+        quantity: -0.23,
+        amount_in_usd: -25000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'December 26, 2022',
+        description: 'Transfer BTC',
+        walletAddress: 'bc1qxy7...4vn',
+        status: 'Success',
+        quantity: -0.23,
+        amount_in_usd: -25000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'April 17, 2021',
+        description: 'Transfer BTC',
+        walletAddress: 'bc1q9h2...k85',
+        status: 'Success',
+        quantity: -0.23,
+        amount_in_usd: -25000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'February 05, 2020',
+        description: 'Transfer BTC',
+        walletAddress: '3J98t1...NLy',
+        status: 'Success',
+        quantity: -0.23,
+        amount_in_usd: -25000.0,
+        assets: 'BTC'
+      },
+    ],
+    assets: [
+      {
+        assetsName: 'BTC',
+        assetsName2: 'Bitcoin',
+        walletAddress: 'bc1qnwj******f7xfwr3q7z2',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
+        quantity: 2.34
+      },
+      {
+        assetsName: 'ETH',
+        assetsName2: 'Ethereum',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/feMQhL4.png',
+        quantity: 0
+      },
+      {
+        assetsName: 'BNB',
+        assetsName2: 'Binance Coin',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
+        quantity: 0
+      }
+    ]
   }
 ];

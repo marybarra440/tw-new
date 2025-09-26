@@ -33,7 +33,7 @@ export const cryptoCoins = [
     id: 6,
     name: 'USD Coin',
     symbol: 'USDC',
-    iconUrl: 'https://cryptologos.cc/logos/usd-coin-usdc-logo.png'
+    iconUrl: 'https://i.imgur.com/OknOnq6.png'
   },
   {
     id: 7,
