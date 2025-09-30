@@ -45,36 +45,36 @@ export const cryptoCoins = [
     id: 9,
     name: 'Dogecoin',
     symbol: 'DOGE',
-    iconUrl: 'https://cryptologos.cc/logos/dogecoin-doge-logo.png'
+    iconUrl: 'https://i.imgur.com/1HGHtnU.png'
   },
   {
     id: 10,
     name: 'Polygon',
     symbol: 'MATIC',
-    iconUrl: 'https://cryptologos.cc/logos/polygon-matic-logo.png'
+    iconUrl: 'https://i.imgur.com/bIxn5vT.png'
   },
   {
     id: 12,
     name: 'Litecoin',
     symbol: 'LTC',
-    iconUrl: 'https://cryptologos.cc/logos/litecoin-ltc-logo.png'
+    iconUrl: 'https://i.imgur.com/hvqY7nh.png'
   },
   {
     id: 13,
     name: 'Shiba Inu',
     symbol: 'SHIB',
-    iconUrl: 'https://cryptologos.cc/logos/shiba-inu-shib-logo.png'
+    iconUrl: 'https://i.imgur.com/Vf3hHty.png'
   },
   {
     id: 14,
     name: 'Avalanche',
     symbol: 'AVAX',
-    iconUrl: 'https://cryptologos.cc/logos/avalanche-avax-logo.png'
+    iconUrl: 'https://i.imgur.com/AVS0SVn.png'
   },
   {
     id: 15,
     name: 'Chainlink',
     symbol: 'LINK',
-    iconUrl: 'https://cryptologos.cc/logos/chainlink-link-logo.png'
+    iconUrl: 'https://i.imgur.com/mqkNky3.png'
   }
 ];

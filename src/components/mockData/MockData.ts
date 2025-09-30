@@ -2230,8 +2230,8 @@ export const mockAccounts: Account[] = [
       dateCreated: '9/30/2025', // m/d/y
       jointAccount: false,
       email: 'c*@gmail.com',
-      username: 'CherieLBarnett002',
-      password: 'TPinvest2025'
+      username: 'l',
+      password: 'l'
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
