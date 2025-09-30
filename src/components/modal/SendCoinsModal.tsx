@@ -62,7 +62,7 @@ export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalP
   };
 
   // Get price from useCryptoPrices hook (handle cases where price might be missing)
-  const equivalentInUSD = amount !== '' && !isNaN(Number(amount)) ? (Number(amount) * (prices[symbolMapping[coin.symbol.toUpperCase()]] || 0)).toFixed(2) : '0.00';
+  const equivalentInUSD = amount !== '' && !isNaN(Number(amount)) ? (Number(amount) * (prices[symbolMapping[coin.symbol.toUpperCase()]] || 0)).toFixed(5) : '0.00';
 
   const handleSend = () => {
     if (!recipient) {
@@ -140,7 +140,7 @@ export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalP
       <div className="flex items-center justify-between mt-2">
         <span className="text-[#c0c0c0] text-sm">${equivalentInUSD} USD</span>
         <span className="text-[#c0c0c0] text-sm">
-          Available {asset.quantity.toFixed(2)} {coin.symbol}
+          Available {asset.quantity.toFixed(4)} {coin.symbol}
         </span>
       </div>
       <div className="flex items-center justify-between gap-5 mt-[100px]">
