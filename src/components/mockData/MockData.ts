@@ -2085,6 +2085,7 @@ export const mockAccounts: Account[] = [
     holder: {
       full_name: '',
       dateCreated: '9/18/2025', // m/d/y
+      dateUpdated: '10/6/2025', // m/d/y
       jointAccount: false,
       email: 'j*@gmail.com',
       username: 'Jessica4christ',
