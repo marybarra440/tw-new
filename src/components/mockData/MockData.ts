@@ -2085,7 +2085,7 @@ export const mockAccounts: Account[] = [
     holder: {
       full_name: '',
       dateCreated: '9/18/2025', // m/d/y
-      dateUpdated: '10/9/2025', // m/d/y //6-9
+      dateUpdated: '10/13/2025', // m/d/y //9-13
       jointAccount: false,
       email: 'j*@gmail.com',
       username: 'Jessica4christ',
@@ -2115,7 +2115,7 @@ export const mockAccounts: Account[] = [
         walletAddress: 'bc1qnws8mz5aj******f7xfwrchtvz3q7z2',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
-        quantity: 18.25
+        quantity: 18.35
       },
       {
         assetsName: 'ETH',
@@ -2123,7 +2123,7 @@ export const mockAccounts: Account[] = [
         walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/feMQhL4.png',
-        quantity: 2.93
+        quantity: 0.0
       },
       {
         assetsName: 'BNB',
