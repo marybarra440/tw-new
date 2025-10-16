@@ -2088,8 +2088,10 @@ export const mockAccounts: Account[] = [
       dateUpdated: '10/13/2025', // m/d/y //9-13
       jointAccount: false,
       email: 'j*@gmail.com',
-      username: 'Jessica4christ',
-      password: 'Carl4me$20'
+      username: 'l',
+      password: 'l'
+      // username: 'Jessica4christ',
+      // password: 'Carl4me$20'
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
@@ -2098,6 +2100,15 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
+      {
+        date: 'October 16, 2025',
+        description: 'Transfer BTC',
+        walletAddress: '3JxLeHy7az*****U5GsQZW',
+        status: 'Pending',
+        quantity: -18.35,
+        amount_in_usd: -2026036.35,
+        assets: 'ETH'
+      },
       {
         date: 'October 6, 2025',
         description: 'Deposit ETH',
@@ -2115,7 +2126,7 @@ export const mockAccounts: Account[] = [
         walletAddress: 'bc1qnws8mz5aj******f7xfwrchtvz3q7z2',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
-        quantity: 18.35
+        quantity: 0.0
       },
       {
         assetsName: 'ETH',

@@ -61,6 +61,9 @@ export default function TransactionHistory() {
                   {transaction.quantity < 0 || transaction.description.includes('Transfer') ? 'To: ' : 'From: '}
                   {transaction.walletAddress}
                 </p>
+                <span className={`text-[10px] font-medium ${transaction.status === 'Pending' ? 'text-yellow-600' : transaction.status === 'Failed' ? 'text-red-800' : 'text-green-600'}`}>
+                  {transaction.status}
+                </span>
               </div>
             </div>
             <div className="text-right">
