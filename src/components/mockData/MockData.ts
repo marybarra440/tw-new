@@ -2261,6 +2261,15 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
+        date: 'October 22, 2025',
+        description: 'Deposit BTC',
+        walletAddress: '165hr...45b6x',
+        status: 'Success',
+        quantity: 0.046,
+        amount_in_usd: 5000.0,
+        assets: 'BTC'
+      },
+      {
         date: 'October 8, 2025',
         description: 'Deposit BTC',
         walletAddress: '3F2g1...8dX9',
@@ -2304,7 +2313,7 @@ export const mockAccounts: Account[] = [
         walletAddress: 'bc1qnwj******f7xfwr3q7z2',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
-        quantity: 1.00037
+        quantity: 1.05
       },
       {
         assetsName: 'ETH',
