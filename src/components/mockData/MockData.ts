@@ -2099,7 +2099,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        date: 'October 16, 2025',
+        date: 'November 3, 2025',
         description: 'Transfer BTC',
         walletAddress: '3JxLeHy7az*****U5GsQZW',
         status: 'Success',
