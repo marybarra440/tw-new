@@ -2102,7 +2102,7 @@ export const mockAccounts: Account[] = [
         date: 'October 16, 2025',
         description: 'Transfer BTC',
         walletAddress: '3JxLeHy7az*****U5GsQZW',
-        status: 'Pending',
+        status: 'Success',
         quantity: -18.35,
         amount_in_usd: -2026036.35,
         assets: 'ETH'
