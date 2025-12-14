@@ -2115,7 +2115,7 @@ export const mockAccounts: Account[] = [
         quantity: 2.93,
         amount_in_usd: 13800.0,
         assets: 'ETH'
-      },
+      }
     ],
     assets: [
       {
@@ -2140,7 +2140,7 @@ export const mockAccounts: Account[] = [
         walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
-        quantity: 5.00
+        quantity: 5.0
       }
     ]
   },
@@ -2156,7 +2156,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: "Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.",
+      transaction_return_msg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
       transaction_code: '',
       wireDate: true
     },
@@ -2214,7 +2214,7 @@ export const mockAccounts: Account[] = [
         quantity: -0.23,
         amount_in_usd: -25000.0,
         assets: 'BTC'
-      },
+      }
     ],
     assets: [
       {
@@ -2255,7 +2255,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: "Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.",
+      transaction_return_msg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
       transaction_code: '',
       wireDate: true
     },
@@ -2304,7 +2304,7 @@ export const mockAccounts: Account[] = [
         quantity: 0.56,
         amount_in_usd: 64000.0,
         assets: 'BTC'
-      },
+      }
     ],
     assets: [
       {
@@ -2345,7 +2345,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: "Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.",
+      transaction_return_msg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
       transaction_code: '',
       wireDate: true
     },
@@ -2391,10 +2391,10 @@ export const mockAccounts: Account[] = [
         description: 'Transfer BTC',
         walletAddress: '3FABB...694a',
         status: 'Success',
-        quantity: 0.40,
+        quantity: 0.4,
         amount_in_usd: 35000.0,
         assets: 'BTC'
-      },
+      }
     ],
     assets: [
       {
@@ -2404,6 +2404,150 @@ export const mockAccounts: Account[] = [
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
         quantity: 1.72
+      },
+      {
+        assetsName: 'ETH',
+        assetsName2: 'Ethereum',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/feMQhL4.png',
+        quantity: 0
+      },
+      {
+        assetsName: 'BNB',
+        assetsName2: 'Binance Coin',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
+        quantity: 0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC013',
+    holder: {
+      full_name: 'William Kenneth',
+      dateCreated: '12/14/2025', // m/d/y
+      jointAccount: false,
+      email: 'w*@gmail.com',
+      username: 'WilliamKenneth002',
+      password: 'Bidemi123'
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
+      transaction_return_msg: 'Withdrawal failed due to Malaysia government tax requirements of MYR 2,595. Please ensure the required tax amount is paid to proceed.',
+      transaction_code: '',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        date: 'December 14, 2025',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1q9K...X72P',
+        status: 'Success',
+        quantity: 0.42,
+        amount_in_usd: 40000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'December 2, 2025',
+        description: 'Transfer BTC',
+        walletAddress: '3FABB...694a',
+        status: 'Success',
+        quantity: -0.15,
+        amount_in_usd: -15000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'November 18, 2025',
+        description: 'Deposit BTC',
+        walletAddress: '165hr...45b6x',
+        status: 'Success',
+        quantity: 0.37,
+        amount_in_usd: 35000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'November 3, 2025',
+        description: 'Transfer BTC',
+        walletAddress: '3F2g1...8dX9',
+        status: 'Success',
+        quantity: -0.12,
+        amount_in_usd: -12000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'October 20, 2025',
+        description: 'Deposit BTC',
+        walletAddress: '1bDA5...197E',
+        status: 'Success',
+        quantity: 0.32,
+        amount_in_usd: 30000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'September 25, 2025',
+        description: 'Transfer BTC',
+        walletAddress: 'bc1q7d...AFB7',
+        status: 'Success',
+        quantity: -0.27,
+        amount_in_usd: -25000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'September 7, 2025',
+        description: 'Transfer BTC',
+        walletAddress: '1Fbc2...9Qe4',
+        status: 'Success',
+        quantity: -0.1,
+        amount_in_usd: -10000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'August 22, 2025',
+        description: 'Deposit BTC',
+        walletAddress: '3KD9a...F2M8',
+        status: 'Success',
+        quantity: 0.24,
+        amount_in_usd: 20000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'July 18, 2025',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1q8R...MZ21',
+        status: 'Success',
+        quantity: 0.19,
+        amount_in_usd: 15000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'July 2, 2025',
+        description: 'Transfer BTC',
+        walletAddress: '39XqE...7BvP',
+        status: 'Success',
+        quantity: -0.08,
+        amount_in_usd: -8000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'June 12, 2025',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1q4T...L91C',
+        status: 'Success',
+        quantity: 0.18,
+        amount_in_usd: 15000.0,
+        assets: 'BTC'
+      }
+    ],
+    assets: [
+      {
+        assetsName: 'BTC',
+        assetsName2: 'Bitcoin',
+        walletAddress: 'bc1qnwj******f7xfwr3q7z2',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
+        quantity: 2.22
       },
       {
         assetsName: 'ETH',
