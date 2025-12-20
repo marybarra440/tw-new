@@ -2759,7 +2759,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
+      transaction_return_msg: 'Your Transfer is on hold contact this trust wallet agent trustwallettagent@gmail.com.',
       transaction_code: '',
       wireDate: true
     },
