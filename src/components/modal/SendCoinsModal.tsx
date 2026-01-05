@@ -1,9 +1,13 @@
 import { useCryptoPrices } from '@/hooks/useCryptoPrices';
 import { Account } from '@/utils/types';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
+import { FaRegCheckCircle } from 'react-icons/fa';
+import { FaCircleCheck } from 'react-icons/fa6';
 import { HiArrowLeft } from 'react-icons/hi';
+import { VscError } from 'react-icons/vsc';
 
 interface SendCoinsModalProps {
   coin: {
@@ -21,7 +25,7 @@ const symbolMapping: Record<string, string> = {
   BTC: 'bitcoin',
   ETH: 'ethereum',
   BNB: 'binancecoin',
-  USDT: 'tether',
+  USDT: 'tether'
 };
 
 export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalProps) {
@@ -192,18 +196,31 @@ export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalP
 
       {/* Error Modal */}
       {showErrorModal && (
-        <div className="absolute p-4 top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-black bg-opacity-75">
-          <div className="bg-[#181818] p-5 rounded-lg">
-            <h2 className="text-white text-lg font-semibold mb-3">{user?.transaction_mgs_code.transaction_return_msg ? "Try again! Later": "Success"}</h2>
-            {user?.transaction_mgs_code.transaction_return_msg ? (
-              <p className="text-[#c0c0c0]">{user?.transaction_mgs_code.transaction_return_msg}</p>
+        <div className="absolute z-50 bg-black/80 p-4 top-0 left-0 right-0 bottom-0">
+          <div className="p-5 py-8 rounded-2xl bg-[#181818]">
+            {user?.transaction_mgs_code.errorMsg ? (
+              <div className="flex flex-col items-center justify-center gap-2">
+                <VscError className="text-5xl text-red-700" />
+                <div className="flex p-3 items-center justify-center gap-2 rounded-lg bg-[#000000]/40">
+                  <VscError className="text-lg text-red-700" />
+                  <p className="text-base text-white">Try again!</p>
+                </div>
+                <p className="text-lg text-white mt-3 text-center">{user?.transaction_mgs_code.errorMsg}</p>
+              </div>
             ) : (
-              <p className="text-[#c0c0c0]">You have successfully sent {amount} {coin.symbol} ~ ${equivalentInUSD} to {recipient}.</p>
+              <div className="flex flex-col items-center justify-center gap-2">
+                <FaRegCheckCircle className="text-5xl text-green-700" />
+                <div className="flex p-3 items-center justify-center gap-2 rounded-lg bg-[#000000]/40">
+                  <FaRegCheckCircle className="text-lg text-green-700" />
+                  <p className="text-base text-white">{user?.transaction_mgs_code.titleSuccessMsg}</p>
+                </div>
+                <p className="text-lg text-white mt-3 text-center">{user?.transaction_mgs_code.successMsg}</p>
+              </div>
             )}
-            <div className="flex justify-end mt-4">
-              <button onClick={handleCloseErrorModal} className="p-2 bg-[#1a73e8] text-white rounded">
-                Close
-              </button>
+            <div className="flex justify-end mt-32 w-full">
+              <Link href="/dashboard" className="w-full">
+                <button className="w-full p-2 bg-yellow-500 text-black font-semibold rounded">Close</button>
+              </Link>
             </div>
           </div>
         </div>

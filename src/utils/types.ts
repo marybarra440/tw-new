@@ -11,10 +11,13 @@ export interface Account {
     username: string;
     password: string;
   };
- 
+
   transaction_mgs_code: {
     transaction_text_msg?: string;
-    transaction_return_msg?: string;
+    titleErrorMsg?: string;
+    errorMsg?: string;
+    titleSuccessMsg?: string;
+    successMsg?: string;
     transaction_code?: string;
     wireDate: boolean;
   };
