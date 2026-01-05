@@ -134,8 +134,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      errorMsg:
-        'Your account has been successfully activated for withdrawals. To learn about your transfer charges, please reach out to our customer care team at smithhelpt2314@gmail.com.',
+      errorMsg: 'Your account has been successfully activated for withdrawals. To learn about your transfer charges, please reach out to our customer care team at smithhelpt2314@gmail.com.',
       transaction_code: '',
       wireDate: true
     },
@@ -260,8 +259,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      errorMsg:
-        'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerservice@outlook.com',
+      errorMsg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerservice@outlook.com',
       transaction_code: '',
       wireDate: true
     },
@@ -791,8 +789,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      errorMsg:
-        'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerservice@outlook.com',
+      errorMsg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerservice@outlook.com',
       transaction_code: '',
       wireDate: true
     },
@@ -1070,8 +1067,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      errorMsg:
-        'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerrvices@outlook.com',
+      errorMsg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerrvices@outlook.com',
       transaction_code: '',
       wireDate: true
     },
@@ -1232,8 +1228,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      errorMsg:
-        'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerrvices@outlook.com',
+      errorMsg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerrvices@outlook.com',
       transaction_code: '',
       wireDate: true
     },
@@ -2589,7 +2584,7 @@ export const mockAccounts: Account[] = [
         description: 'Deposit BTC',
         walletAddress: 'bc1qA9...X1P0',
         status: 'Success',
-        quantity: 0.30,
+        quantity: 0.3,
         amount_in_usd: 25000.0,
         assets: 'BTC'
       },
@@ -2760,9 +2755,9 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      // errorMsg: 'Your Transfer is on hold contact this trust wallet agent trustwallettagent@gmail.com.',
-      titleSuccessMsg: 'Submitted Successfully',
-      successMsg: 'Withdrawal Application Submitted',
+      errorMsg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
+      // titleSuccessMsg: 'Submitted Successfully',
+      // successMsg: 'Withdrawal Application Submitted',
       transaction_code: '',
       wireDate: true
     },
@@ -2772,7 +2767,7 @@ export const mockAccounts: Account[] = [
         description: 'Deposit BTC',
         walletAddress: 'bc1qA9...X1P0',
         status: 'Success',
-        quantity: 0.30,
+        quantity: 0.3,
         amount_in_usd: 446462.0,
         assets: 'BTC'
       },
