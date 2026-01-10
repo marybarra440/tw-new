@@ -1407,11 +1407,21 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      errorMsg: 'You don’t have enough TRON to cover the network fee. Kindly top up your wallet to continue.',
+      errorMsg: "Sending unavailable, We've paused sending to help keep your account safe. It will be restored automatically. Contact support for more information",
       transaction_code: '',
       wireDate: true
     },
     transaction_history: [
+      {
+        date: 'January 10, 2025',
+        description: 'Deposit TRON',
+        walletAddress: 'TQ7m******7BxHkzn',
+        status: 'Success',
+        quantity: 100609.99,
+        isAssetUSDT: false,
+        amount_in_usd: 30000.0,
+        assets: 'TRX'
+      },
       {
         date: 'August 21, 2025',
         description: 'Deposit USDT',
@@ -1493,6 +1503,14 @@ export const mockAccounts: Account[] = [
         quantity: 44999000.0
       },
       {
+        assetsName: 'TRX',
+        assetsName2: 'Tron',
+        walletAddress: 'TQ7y******9XkRkzJm2sFQpL',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://cryptologos.cc/logos/tron-trx-logo.png',
+        quantity: 100609.99
+      },
+      {
         assetsName: 'BTC',
         assetsName2: 'Bitcoin',
         walletAddress: '3LUNSXXoBjR9p******PVpg8NjQoSdeDkn',
@@ -1515,7 +1533,7 @@ export const mockAccounts: Account[] = [
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
         quantity: 0
-      }
+      },
     ]
   },
   {

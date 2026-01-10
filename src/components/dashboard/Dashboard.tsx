@@ -73,7 +73,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchAssetPrices = async () => {
       try {
-        const response = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,binancecoin,bitcoin-cash,tether&vs_currencies=usd`);
+        const response = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,binancecoin,bitcoin-cash,tether,tron&vs_currencies=usd`);
         const data = await response.json();
         console.log('Fetched asset prices:', data);
         setAssetPrices({
@@ -81,7 +81,8 @@ export default function Dashboard() {
           BCH: data['bitcoin-cash'].usd,
           ETH: data.ethereum.usd,
           BNB: data.binancecoin.usd,
-          USDT: data.tether.usd
+          USDT: data.tether.usd,
+          TRX: data.tron.usd
         });
       } catch (error) {
         console.error('Error fetching asset prices:', error);
@@ -193,7 +194,7 @@ export default function Dashboard() {
             >
               <div className="flex gap-2">
                 <div className="flex items-center justify-center bg-[#2A2A2A] shadow-sm text-white w-[40px] h-[40px] rounded-full">
-                  <Image src={asset.assetsLogo} width={40} height={40} alt={`${asset.assetsName} Logo`} />
+                  <Image src={asset.assetsLogo} width={35} height={35} alt={`${asset.assetsName} Logo`} />
                 </div>
                 <div className="flex flex-col items-start">
                   <span className="text-[17px] text-white">{asset.assetsName}</span>

@@ -24,6 +24,12 @@ export const cryptoCoins = [
     iconUrl: 'https://i.imgur.com/01fHG0f.png'
   },
   {
+    id: 263523,
+    name: 'Tron',
+    symbol: 'TRX',
+    iconUrl: 'https://cryptologos.cc/logos/tron-trx-logo.png'
+  },
+  {
     id: 5,
     name: 'XRP',
     symbol: 'XRP',

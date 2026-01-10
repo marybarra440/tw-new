@@ -25,19 +25,20 @@ const symbolMapping: Record<string, string> = {
   BTC: 'bitcoin',
   ETH: 'ethereum',
   BNB: 'binancecoin',
-  USDT: 'tether'
+  USDT: 'tether',
+  TRX: 'tron'
 };
 
 export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalProps) {
-  const { prices } = useCryptoPrices(); // Get the crypto prices
+  const { prices, loading: pricesLoading } = useCryptoPrices();
   const [user, setUser] = useState<Account | null>(null);
   const [amount, setAmount] = useState<number | ''>('');
   const [recipient, setRecipient] = useState<string>('');
   const [error, setError] = useState<string | null>(null);
   const [showConfirmation, setShowConfirmation] = useState(false);
   const [showErrorModal, setShowErrorModal] = useState(false);
-  const [loading, setLoading] = useState(false); // Loader state for send confirmation
-  const [loadingConfirm, setLoadingConfirm] = useState(false); // Loader state for error confirmation
+  const [loading, setLoading] = useState(false);
+  const [loadingConfirm, setLoadingConfirm] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -61,12 +62,30 @@ export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalP
   };
 
   const handleMaxAmount = () => {
-    setAmount(asset.quantity); // Set the amount to the maximum available quantity
-    setError(null); // Clear the error since it's now valid
+    setAmount(asset.quantity);
+    setError(null);
   };
 
-  // Get price from useCryptoPrices hook (handle cases where price might be missing)
-  const equivalentInUSD = amount !== '' && !isNaN(Number(amount)) ? (Number(amount) * (prices[symbolMapping[coin.symbol.toUpperCase()]] || 0)).toFixed(5) : '0.00';
+  // Get price with proper mapping
+  const getPriceKey = (symbol: string): string => {
+    return symbolMapping[symbol.toUpperCase()] || symbol.toLowerCase();
+  };
+
+  const equivalentInUSD = (() => {
+    if (amount === '' || isNaN(Number(amount))) {
+      return '0.00';
+    }
+    
+    const priceKey = getPriceKey(coin.symbol);
+    const price = prices[priceKey];
+    
+    if (!price || price === 0) {
+      return pricesLoading ? 'Loading...' : '0.00';
+    }
+    
+    const usdValue = Number(amount) * price;
+    return usdValue.toFixed(5);
+  })();
 
   const handleSend = () => {
     if (!recipient) {
@@ -82,29 +101,27 @@ export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalP
       return;
     }
 
-    setError(null); // Reset error if validation passes
-    setLoading(true); // Start loading for confirmation
+    setError(null);
+    setLoading(true);
 
-    // Simulate a delay before showing the confirmation modal
     setTimeout(() => {
-      setLoading(false); // Stop loading
-      setShowConfirmation(true); // Show confirmation modal
-    }, 2000); // 2 seconds delay
+      setLoading(false);
+      setShowConfirmation(true);
+    }, 2000);
   };
 
   const handleConfirm = () => {
-    setLoadingConfirm(true); // Start loading for error modal
+    setLoadingConfirm(true);
 
-    // Simulate a delay before showing the error modal
     setTimeout(() => {
-      setLoadingConfirm(false); // Stop loading
-      setShowConfirmation(false); // Close confirmation modal
-      setShowErrorModal(true); // Show error modal
-    }, 2000); // 2 seconds delay
+      setLoadingConfirm(false);
+      setShowConfirmation(false);
+      setShowErrorModal(true);
+    }, 2000);
   };
 
   const handleCloseErrorModal = () => {
-    setShowErrorModal(false); // Close error modal
+    setShowErrorModal(false);
   };
 
   return (

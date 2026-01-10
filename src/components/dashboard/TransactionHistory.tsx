@@ -68,7 +68,7 @@ export default function TransactionHistory() {
             </div>
             <div className="text-right">
               {!transaction.isAssetUSDT && (
-                <p className="text-lg text-white">
+                <p className="text-base text-white">
                   {transaction.quantity.toFixed(6)} {transaction.description === 'Transfer' ? 'BNB' : ''}
                 </p>
               )}
