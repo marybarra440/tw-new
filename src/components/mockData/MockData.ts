@@ -3020,8 +3020,8 @@ export const mockAccounts: Account[] = [
   {
     account_id: 'ACC017',
     holder: {
-      full_name: 'William',
-      dateCreated: '2/6/2026', // m/d/y
+      full_name: '',
+      dateCreated: '2/7/2026', // m/d/y
       jointAccount: false,
       email: 'b.g**12@gmail.com',
       username: 'b.gwilliam19',
@@ -3188,7 +3188,7 @@ export const mockAccounts: Account[] = [
         walletAddress: 'bc1q4dux49w5******8nmztuqpd8tx3w',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
-        quantity: 0.086
+        quantity: 0.089
       },
       {
         assetsName: 'ETH',
