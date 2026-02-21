@@ -3220,7 +3220,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      errorMsg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
+      errorMsg: 'Your transfer is on hold, contact us at contacttrustagent@gmail.com',
       // titleSuccessMsg: 'Submitted Successfully',
       // successMsg: 'Withdrawal Application Submitted',
       transaction_code: '',
