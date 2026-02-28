@@ -84,7 +84,7 @@ export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalP
     }
     
     const usdValue = Number(amount) * price;
-    return usdValue.toFixed(5);
+    return usdValue.toFixed(2);
   })();
 
   const handleSend = () => {
@@ -161,7 +161,7 @@ export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalP
       <div className="flex items-center justify-between mt-2">
         <span className="text-[#c0c0c0] text-sm">${equivalentInUSD} USD</span>
         <span className="text-[#c0c0c0] text-sm">
-          Available {asset.quantity.toFixed(4)} {coin.symbol}
+          Available {asset.quantity.toFixed(2)} {coin.symbol}
         </span>
       </div>
       <div className="flex items-center justify-between gap-5 mt-[100px]">
