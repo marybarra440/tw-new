@@ -2096,9 +2096,9 @@ export const mockAccounts: Account[] = [
   {
     account_id: 'ACC009',
     holder: {
-      full_name: '',
+      full_name: 'Steve Hood',
       dateCreated: '9/18/2025', // m/d/y
-      dateUpdated: '10/13/2025', // m/d/y //9-13
+      dateUpdated: '2/28/2026', // m/d/y
       jointAccount: false,
       email: 'j*@gmail.com',
       username: 'Jessica4christ',
@@ -2111,6 +2111,78 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
+      {
+        date: 'February 27, 2026',
+        description: 'Transfer USDT',
+        walletAddress: '0xa94e...c1b7',
+        status: 'Success',
+        quantity: 3000000.0,
+        amount_in_usd: 3000000.0,
+        assets: 'USDT'
+      },
+      {
+        date: 'February 26, 2026',
+        description: 'Transfer USDT',
+        walletAddress: '0x7a3c...9d2f',
+        status: 'Success',
+        quantity: 2500000.0,
+        amount_in_usd: 2500000.0,
+        assets: 'USDT'
+      },
+      {
+        date: 'February 25, 2026',
+        description: 'Transfer USDT',
+        walletAddress: '0x1f8b...4a6e',
+        status: 'Success',
+        quantity: 2200000.0,
+        amount_in_usd: 2200000.0,
+        assets: 'USDT'
+      },
+      {
+        date: 'February 24, 2026',
+        description: 'Transfer USDT',
+        walletAddress: '0x5d2a...8f3c',
+        status: 'Success',
+        quantity: 1900000.0,
+        amount_in_usd: 1900000.0,
+        assets: 'USDT'
+      },
+      {
+        date: 'February 23, 2026',
+        description: 'Transfer USDT',
+        walletAddress: '0x0f14...3e4f',
+        status: 'Success',
+        quantity: 1700000.0,
+        amount_in_usd: 1700000.0,
+        assets: 'USDT'
+      },
+      {
+        date: 'February 22, 2026',
+        description: 'Transfer USDT',
+        walletAddress: '0x8c21...7ab9',
+        status: 'Success',
+        quantity: 1500000.0,
+        amount_in_usd: 1500000.0,
+        assets: 'USDT'
+      },
+      {
+        date: 'February 21, 2026',
+        description: 'Transfer USDT',
+        walletAddress: '0x3f9d...2e6a',
+        status: 'Success',
+        quantity: 1300000.0,
+        amount_in_usd: 1300000.0,
+        assets: 'USDT'
+      },
+      {
+        date: 'February 20, 2026',
+        description: 'Transfer USDT',
+        walletAddress: '0x6b4a...1c8d',
+        status: 'Success',
+        quantity: 900000.0,
+        amount_in_usd: 900000.0,
+        assets: 'USDT'
+      },
       {
         date: 'November 3, 2025',
         description: 'Transfer BTC',
@@ -2131,6 +2203,14 @@ export const mockAccounts: Account[] = [
       }
     ],
     assets: [
+      {
+        assetsName: 'USDT',
+        assetsName2: 'Tether',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/ozSbypA.png',
+        quantity: 15000000.0
+      },
       {
         assetsName: 'BTC',
         assetsName2: 'Bitcoin',
@@ -3268,7 +3348,7 @@ export const mockAccounts: Account[] = [
         description: 'Deposit BTC',
         walletAddress: '3FZ91...K8D2',
         status: 'Success',
-        quantity: 5.90,
+        quantity: 5.9,
         amount_in_usd: 400000,
         assets: 'BTC'
       },
@@ -3295,7 +3375,7 @@ export const mockAccounts: Account[] = [
         description: 'Deposit BTC',
         walletAddress: 'bc1q9K...X72P',
         status: 'Success',
-        quantity: 5.90,
+        quantity: 5.9,
         amount_in_usd: 400000,
         assets: 'BTC'
       },
@@ -3313,7 +3393,7 @@ export const mockAccounts: Account[] = [
         description: 'Deposit BTC',
         walletAddress: '165hr...45b6x',
         status: 'Success',
-        quantity: 5.90,
+        quantity: 5.9,
         amount_in_usd: 400000,
         assets: 'BTC'
       },
