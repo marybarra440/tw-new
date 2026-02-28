@@ -2118,7 +2118,8 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         quantity: 3000000.0,
         amount_in_usd: 3000000.0,
-        assets: 'USDT'
+        assets: 'USDT',
+        isAssetUSDT: true,
       },
       {
         date: 'February 26, 2026',
@@ -2127,7 +2128,8 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         quantity: 2500000.0,
         amount_in_usd: 2500000.0,
-        assets: 'USDT'
+        assets: 'USDT',
+        isAssetUSDT: true,
       },
       {
         date: 'February 25, 2026',
@@ -2136,7 +2138,8 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         quantity: 2200000.0,
         amount_in_usd: 2200000.0,
-        assets: 'USDT'
+        assets: 'USDT',
+        isAssetUSDT: true,
       },
       {
         date: 'February 24, 2026',
@@ -2145,7 +2148,8 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         quantity: 1900000.0,
         amount_in_usd: 1900000.0,
-        assets: 'USDT'
+        assets: 'USDT',
+        isAssetUSDT: true,
       },
       {
         date: 'February 23, 2026',
@@ -2154,7 +2158,8 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         quantity: 1700000.0,
         amount_in_usd: 1700000.0,
-        assets: 'USDT'
+        assets: 'USDT',
+        isAssetUSDT: true,
       },
       {
         date: 'February 22, 2026',
@@ -2163,7 +2168,8 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         quantity: 1500000.0,
         amount_in_usd: 1500000.0,
-        assets: 'USDT'
+        assets: 'USDT',
+        isAssetUSDT: true,
       },
       {
         date: 'February 21, 2026',
@@ -2172,7 +2178,8 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         quantity: 1300000.0,
         amount_in_usd: 1300000.0,
-        assets: 'USDT'
+        assets: 'USDT',
+        isAssetUSDT: true,
       },
       {
         date: 'February 20, 2026',
@@ -2181,7 +2188,8 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         quantity: 900000.0,
         amount_in_usd: 900000.0,
-        assets: 'USDT'
+        assets: 'USDT',
+        isAssetUSDT: true,
       },
       {
         date: 'November 3, 2025',
