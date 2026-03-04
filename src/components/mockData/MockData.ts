@@ -2100,9 +2100,9 @@ export const mockAccounts: Account[] = [
       dateCreated: '9/18/2025', // m/d/y
       dateUpdated: '2/28/2026', // m/d/y
       jointAccount: false,
-      email: 'j*@gmail.com',
-      username: 'Jessica4christ',
-      password: 'Carl4me$20'
+      email: 's*@gmail.com',
+      username: 'Steveh013',
+      password: 'Christsaves&12'
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
