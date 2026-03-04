@@ -2106,7 +2106,8 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      errorMsg: "Withdrawal failed. You don't have enough TRON to cover the network fee. For assistance, please contact our support team via telegram: @ClientHelp247.",
+      // errorMsg: "Withdrawal failed. You don't have enough TRON to cover the network fee. For assistance, please contact our support team via telegram: @ClientHelp247.",
+      successMsg: "The transfer has been completed successfully.",
       transaction_code: '',
       wireDate: true
     },
