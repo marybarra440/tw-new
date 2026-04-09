@@ -3509,7 +3509,7 @@ export const mockAccounts: Account[] = [
   {
     account_id: 'ACC019',
     holder: {
-      full_name: '',
+      full_name: 'Roger bell',
       dateCreated: '4/9/2026', // m/d/y
       jointAccount: false,
       email: 'r**@gmail.com',
