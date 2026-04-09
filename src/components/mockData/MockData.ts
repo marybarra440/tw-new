@@ -2107,7 +2107,7 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
       // errorMsg: "Withdrawal failed. You don't have enough TRON to cover the network fee. For assistance, please contact our support team via telegram: @ClientHelp247.",
-      successMsg: "The transfer has been completed successfully.",
+      successMsg: 'The transfer has been completed successfully.',
       transaction_code: '',
       wireDate: true
     },
@@ -2120,7 +2120,7 @@ export const mockAccounts: Account[] = [
         quantity: 3000000.0,
         amount_in_usd: 3000000.0,
         assets: 'USDT',
-        isAssetUSDT: true,
+        isAssetUSDT: true
       },
       {
         date: 'February 26, 2026',
@@ -2130,7 +2130,7 @@ export const mockAccounts: Account[] = [
         quantity: 2500000.0,
         amount_in_usd: 2500000.0,
         assets: 'USDT',
-        isAssetUSDT: true,
+        isAssetUSDT: true
       },
       {
         date: 'February 25, 2026',
@@ -2140,7 +2140,7 @@ export const mockAccounts: Account[] = [
         quantity: 2200000.0,
         amount_in_usd: 2200000.0,
         assets: 'USDT',
-        isAssetUSDT: true,
+        isAssetUSDT: true
       },
       {
         date: 'February 24, 2026',
@@ -2150,7 +2150,7 @@ export const mockAccounts: Account[] = [
         quantity: 1900000.0,
         amount_in_usd: 1900000.0,
         assets: 'USDT',
-        isAssetUSDT: true,
+        isAssetUSDT: true
       },
       {
         date: 'February 23, 2026',
@@ -2160,7 +2160,7 @@ export const mockAccounts: Account[] = [
         quantity: 1700000.0,
         amount_in_usd: 1700000.0,
         assets: 'USDT',
-        isAssetUSDT: true,
+        isAssetUSDT: true
       },
       {
         date: 'February 22, 2026',
@@ -2170,7 +2170,7 @@ export const mockAccounts: Account[] = [
         quantity: 1500000.0,
         amount_in_usd: 1500000.0,
         assets: 'USDT',
-        isAssetUSDT: true,
+        isAssetUSDT: true
       },
       {
         date: 'February 21, 2026',
@@ -2180,7 +2180,7 @@ export const mockAccounts: Account[] = [
         quantity: 1300000.0,
         amount_in_usd: 1300000.0,
         assets: 'USDT',
-        isAssetUSDT: true,
+        isAssetUSDT: true
       },
       {
         date: 'February 20, 2026',
@@ -2190,7 +2190,7 @@ export const mockAccounts: Account[] = [
         quantity: 900000.0,
         amount_in_usd: 900000.0,
         assets: 'USDT',
-        isAssetUSDT: true,
+        isAssetUSDT: true
       },
       {
         date: 'November 3, 2025',
@@ -3487,6 +3487,52 @@ export const mockAccounts: Account[] = [
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
         quantity: 64.94
+      },
+      {
+        assetsName: 'ETH',
+        assetsName2: 'Ethereum',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/feMQhL4.png',
+        quantity: 0
+      },
+      {
+        assetsName: 'BNB',
+        assetsName2: 'Binance Coin',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
+        quantity: 0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC019',
+    holder: {
+      full_name: '',
+      dateCreated: '4/9/2026', // m/d/y
+      jointAccount: false,
+      email: 'r**@gmail.com',
+      username: 'Rogerbell123',
+      password: 'Blessed123'
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
+      errorMsg: "You are currently unable to make a withdrawal. Please contact support for assistance.",
+      // titleSuccessMsg: 'Submitted Successfully',
+      // successMsg: 'Withdrawal Application Submitted',
+      transaction_code: '',
+      wireDate: true
+    },
+    transaction_history: [],
+    assets: [
+      {
+        assetsName: 'BTC',
+        assetsName2: 'Bitcoin',
+        walletAddress: 'bc1q4dux49w5******8nmztuqpd8tx3w',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
+        quantity: 1.815
       },
       {
         assetsName: 'ETH',
