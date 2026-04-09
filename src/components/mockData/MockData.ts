@@ -3518,7 +3518,8 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      errorMsg: "You are currently unable to make a withdrawal. Please contact support for assistance.",
+      errorMsg:
+        'Due to applicable taxes and transfer fees, withdrawals to your account are currently restricted. Please contact customer support to resolve the outstanding charges so you can proceed with withdrawing funds to your account.',
       // titleSuccessMsg: 'Submitted Successfully',
       // successMsg: 'Withdrawal Application Submitted',
       transaction_code: '',
