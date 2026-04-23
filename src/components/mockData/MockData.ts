@@ -129,7 +129,7 @@ export const mockAccounts: Account[] = [
       full_name: 'Sharon Little',
       jointAccount: false,
       email: 's@gmail.com',
-      username: 'SharoLit',
+      username: 'SharoLit-expired',
       password: 'Slit_233'
     },
     transaction_mgs_code: {
@@ -254,7 +254,7 @@ export const mockAccounts: Account[] = [
       full_name: 'Liam & Monique',
       jointAccount: true,
       email: 'l@gmail.com',
-      username: 'Liam&monique',
+      username: 'Liam&monique-expired',
       password: 'Loveforever2'
     },
     transaction_mgs_code: {
@@ -784,7 +784,7 @@ export const mockAccounts: Account[] = [
       full_name: '',
       jointAccount: false,
       email: 's@gmail.com',
-      username: 'sarah02',
+      username: 'sarah02-expired',
       password: 'Ritterhouse'
     },
     transaction_mgs_code: {
@@ -1062,7 +1062,7 @@ export const mockAccounts: Account[] = [
       full_name: '',
       jointAccount: false,
       email: 'm*@gmail.com',
-      username: 'Mitchelle19',
+      username: 'Mitchelle19-expired',
       password: 'ILovejohn19$'
     },
     transaction_mgs_code: {
@@ -1223,7 +1223,7 @@ export const mockAccounts: Account[] = [
       full_name: '',
       jointAccount: false,
       email: 'm*@gmail.com',
-      username: 'Marc1091',
+      username: 'Marc1091-expired',
       password: 'Elon53'
     },
     transaction_mgs_code: {
@@ -1402,7 +1402,7 @@ export const mockAccounts: Account[] = [
       full_name: '',
       jointAccount: false,
       email: 'k*@gmail.com',
-      username: 'Kim4robert',
+      username: 'Kim4robert-expired',
       password: 'Robertkim12345'
     },
     transaction_mgs_code: {
@@ -1542,7 +1542,7 @@ export const mockAccounts: Account[] = [
       full_name: '',
       jointAccount: false,
       email: 'bellso***@gmail.com',
-      username: 'ellebrooke1995',
+      username: 'ellebrooke1995-expired',
       password: 'Ellebrook95'
     },
     transaction_mgs_code: {
@@ -2253,7 +2253,7 @@ export const mockAccounts: Account[] = [
       dateCreated: '9/27/2025', // m/d/y
       jointAccount: false,
       email: 't*@gmail.com',
-      username: 'TonyaWilson002',
+      username: 'TonyaWilson002-expired',
       password: 'Tonyalovesfusinski'
     },
     transaction_mgs_code: {
@@ -2352,7 +2352,7 @@ export const mockAccounts: Account[] = [
       dateCreated: '9/30/2025', // m/d/y
       jointAccount: false,
       email: 'c*@gmail.com',
-      username: 'CherieLBarnett002',
+      username: 'CherieLBarnett002-expired',
       password: 'TPinvest2025'
     },
     transaction_mgs_code: {
@@ -2442,7 +2442,7 @@ export const mockAccounts: Account[] = [
       dateCreated: '11/20/2025', // m/d/y
       jointAccount: false,
       email: 'k*@gmail.com',
-      username: 'KhoChiaWei002',
+      username: 'KhoChiaWei002-expired',
       password: 'Bidemi123'
     },
     transaction_mgs_code: {
